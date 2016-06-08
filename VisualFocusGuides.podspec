@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
-s.platform = :tvos
-s.tvos.deployment_target = '9.0'
+s.platform = :tvos => "9.0"
+#s.tvos.deployment_target = '9.0'
 s.name = "VisualFocusGuides"
 s.summary = "Extension to make tvOS Focus Guides visible."
 s.requires_arc = true
