@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-s.platform     = :tvos, "9.0"
+s.platform = :tvos, "9.0"
 #s.tvos.deployment_target = '9.0'
 s.name = "VisualFocusGuides"
 s.summary = "Extension to make tvOS Focus Guides visible."
@@ -18,7 +18,7 @@ s.source = { :git => "https://github.com/davidengelhardt/VisualFocusGuides.git",
 
 s.framework = "UIKit"
 
-s.source_files = "VisualFocusGuides/**/*.{swift}"
+s.source_files = "VisualFocusGuides/**/*.{swift,h,m}"
 
 s.resources = "VisualFocusGuides/**/*.{png,jpeg,jpg,storyboard,xib}"
 
