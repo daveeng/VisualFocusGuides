@@ -20,6 +20,6 @@ s.framework = "UIKit"
 
 s.source_files = "VisualFocusGuides/**/*.{swift,h,m}"
 
-s.resources = "VisualFocusGuides/**/*.{png,jpeg,jpg,storyboard,xib}"
+#s.resources = "VisualFocusGuides/**/*.{png,jpeg,jpg,storyboard,xib}"
 
 end
