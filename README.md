@@ -4,9 +4,10 @@ Extension to make tvOS Focus Guides visible.
 
 Use:
 
+```swift
     view.showAllVisualFocusGuides() // Shows focus guides
-    
     view.hideAllVisualFocusGuides() // Hides focus guides
+```
 
 ##Installation
 
