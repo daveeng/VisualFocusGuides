@@ -28,10 +28,10 @@ public extension UIView {
                     preferredFocusedVisualGuide.frame = CGRect(x: preferredFocusedVisualGuide.frame.origin.x - 10, y: preferredFocusedVisualGuide.frame.origin.y - 10, width: preferredFocusedVisualGuide.frame.size.width + 10, height: preferredFocusedVisualGuide.frame.size.height + 10)
                     preferredFocusedVisualGuide.layer.borderWidth = 10
                     if let color = colors[preferredFocusedView] {
-                        preferredFocusedVisualGuide.layer.borderColor = color.CGColor
+                        preferredFocusedVisualGuide.layer.borderColor = color.cgColor
                         focusGuideColor = color
                     } else {
-                        preferredFocusedVisualGuide.layer.borderColor = focusGuideColor.CGColor
+                        preferredFocusedVisualGuide.layer.borderColor = focusGuideColor.cgColor
                         colors.updateValue(focusGuideColor, forKey: preferredFocusedView)
                     }
                     self.addSubview(preferredFocusedVisualGuide)
